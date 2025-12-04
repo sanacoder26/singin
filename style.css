@@ -3,9 +3,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://cdn.pixabay.com/animation/2023/10/20/03/38/03-38-03-793_512.gif');
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    animation:15s ease infinite;
+    /* background-image: url('https://cdn.pixabay.com/animation/2023/10/20/03/38/03-38-03-793_512.gif');
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+    background: linear-gradient(-45deg, #ee7752, #23d5ab, #23a6d5, #ee7752);
+    
+   animation:15s ease infinite;
 }
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
