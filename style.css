@@ -3,12 +3,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url('https://cdn.pixabay.com/animation/2023/10/20/03/38/03-38-03-793_512.gif');
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+    color:ffffff;
+    font-size: small;
+    /* background-image: url('https://cdn.pixabay.com/animation/2023/10/20/03/38/03-38-03-793_512.gif');*/
+      /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;    */
     background: linear-gradient(-45deg, #ee7752, #23d5ab, #23a6d5, #ee7752);
-    
-   animation:15s ease infinite;
+    animation:15s ease infinite;
 }
+
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -24,7 +26,7 @@ body {
     text-align: center;
     transform: translateY(-50px);
     opacity: 0;
-    animation: fadeInUp 1s forwards;
+    animation:1s forwards;
 }
 @keyframes fadeInUp {
     to { transform: translateY(0); opacity: 1; }
@@ -53,4 +55,11 @@ h3 {
 .btn-primary:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(73, 73, 238, 0.918);
+}
+a {
+    /* display: block; */
+    margin-top: 5px;
+    color: rgba(73, 73, 238, 0.918);
+    font-size: small;
+    text-decoration: none;
 }
